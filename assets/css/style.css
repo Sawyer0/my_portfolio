@@ -1,0 +1,84 @@
+body {
+    margin-right: 30px;
+    background-color: turquoise;
+}
+
+article {
+    max-width:300px;
+	padding:5px;
+	display:inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.contact {
+    display: inline;
+    justify-content: right;
+}
+
+main{
+    margin: 5%;
+    background-color: bisque;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+
+}
+
+aside {
+    padding:5px;
+	height:200px;
+	width:100px;
+    display:inline-block;
+    word-wrap: break-word;
+}
+
+
+
+.About-me {
+    justify-content: space-evenly;
+}
+
+nav {
+    display: inline;
+    justify-content: right;
+}
+
+.title{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHByb2dyYW1taW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center ;
+}
+.main-card {
+    max-width:300px;
+	padding:5px;
+	display:inline-block;
+    vertical-align: baseline;  
+}
+
+
+
+.cards {
+    display: flex;
+    smargin: 30px;
+    flex-wrap: wrap;
+    float:right;
+    width: 33.33%;
+    padding: 5px  
+}
+
+.content {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
