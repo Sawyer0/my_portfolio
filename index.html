@@ -1,55 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Portfolio</title>
-  </head>
+<html>
+<title>Dawan's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<body>
 
-  <body>
-    <header class="placeholder">
-      <div class="nav-wrapper">
-        <h1 class="seo">Dawan</h1>
-        <nav class="contact">
-          <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="title"><title>Banner img></title></section>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Dawan Sawyer</b> Portfolio</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
-    <aside>
-      <div>
-          <h2>About Me</h2>
-      </div>
-      <div>
-          <h2>Work</h2>
-      <div>
-          <h2>Contact Me</h2>
-      </div>
-  </aside>
-  
- <article>
-  <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-      est totam unde maiores consectetur omnis. Eligendi tenetur sit
-      reprehenderit cumque nostrum dignissimos, culpa ducimus
-      repellendus recusandae, nisi perspiciatis. Vitae, veritatis!
-  </p>
-</article>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
 
-  <article class="main-card">
-    <div>
-        <a href="#"
-          ><img
-            src="assets/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
-            style="width: 100%; height: 67%"
-        /></a>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Park Finder</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
       </div>
-</article>
-  </body>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Weather App</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Day Planner</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <p>I love software development. I have made various projects in different languages and learned lot from it. I used to be a security guard 
+      but, I was always fascinated how software development actually works. So I am currently in a full stack bootcamp 
+      and it is the greatest choice I ever made!
+    </p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <ul class="contact" id="contact">
+      <li>(555) 555-555</li>
+      <li><a href="" target="_blank">Resume</a></li>
+      <li><a href="" target="_blank">GitHub</a></li>
+      <li><a href="" target="_blank">LinkedIn</a></li>
+    </ul>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
 </html>
